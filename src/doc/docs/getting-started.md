@@ -419,7 +419,7 @@ Bundles **lifecycle and methods are the same**, just guicey bundle provide more 
     ```java
     public class MyBundle implements GuiceyBundle {
          default void initialize(GuiceyBootstrap bootstrap) {
-             bootstrap.dropwizardBundles(new MyDropeizardBundle());
+             bootstrap.dropwizardBundles(new MyDropwizardBundle());
          }
     }
     ```     
